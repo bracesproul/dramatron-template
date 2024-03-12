@@ -9,5 +9,5 @@ export const prefixSummary = (
   storyline: string,
   scenes: Array<Scene>
 ): string => {
-  throw new Error("Function 'prefixSummary' not implemented.")
+  throw new Error("Function 'prefixSummary' not implemented.");
 };

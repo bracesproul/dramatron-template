@@ -7,5 +7,5 @@ import { END_MARKER } from "../constants.js";
  * @returns {string}
  */
 export const stripRemoveEnd = (text: string): string => {
-  throw new Error("Function 'stripRemoveEnd' not implemented.")
+  throw new Error("Function 'stripRemoveEnd' not implemented.");
 };
