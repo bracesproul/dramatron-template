@@ -1,0 +1,21 @@
+{
+  "name": "dramatron-template",
+  "private": true,
+  "version": "1.0.0",
+  "author": "Brace Sproul",
+  "license": "MIT",
+  "workspaces": [
+    "backend",
+    "frontend"
+  ],
+  "scripts": {
+    "start:backend": "yarn turbo run start --filter=backend",
+    "build": "yarn turbo run build",
+    "lint": "yarn turbo run lint",
+    "format": "yarn turbo run format",
+    "dev": "yarn turbo run dev"
+  },
+  "devDependencies": {
+    "turbo": "latest"
+  }
+}
